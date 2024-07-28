@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('https://madvikretreat.com/wp-content/uploads/2023/11/The-Future-of-Sustainable-Tourism-in-India-A-Look-at-the-Predictions.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.logo-span {
+    font-size: 40px;
+    color: rgb(243, 81, 11);
+}
+
+.main-heading {
+    position: absolute;
+    top: 100px;
+    right: 230px;
+}
+.head{
+    font-family: "Send Flowers", cursive;
+}
+.main-heading h1 {
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 20px;
+    color: rgb(16, 1, 9);
+}
+.modal-btn{
+    position: absolute;
+    top: 600px;
+    left: 720px;
+}
+.modal-footer button {
+    background-color: rgb(31, 174, 150);
+    color: rgb(14, 13, 13);
+}
+.modal-footer button:hover {
+    background-color: rgb(108, 25, 133);
+    color: rgb(252, 249, 249);
+}
+#kerala-special{
+    background-color: white;
+}
+.more-packages button {
+    background-color: rgb(11, 144, 73);
+    color: rgb(223, 214, 214);
+    border-radius: 20px;
+}
+.more-packages button:hover {
+    background-color: red;
+    color: rgb(227, 221, 221);
+    box-shadow: 0 5px 2px rgba(248, 245, 245, 0.4);
+    border-radius: 20px;
+}
+
+.package-card:hover {
+    box-shadow: 0px 4px 5px rgba(212, 207, 207, 0.5);
+}
+.card-body a:hover{
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.carousel-heading {
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(30, 157, 211);
+    -webkit-text-stroke: 2px white;
+}
+.more-details button {
+    background-color: rgb(11, 144, 73);
+}
+
+.more-details button:hover {
+    color: black;
+    background-color: rgb(11, 144, 73);
+}
+.video iframe{
+max-width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    grid-template-rows: repeat(4, 90px);
+    gap: 10px;
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+}
+.grid-img {
+    width: 100%;
+    height: 100%;
+}
+.img3,.img6,.img8 {
+    grid-column: span 2;
+}
+.img5 {
+    grid-row: span 2;
+}
+.image-container {
+    position: relative; 
+}
+.image-container img {
+    display: block;
+}
+.contents {
+    position: absolute;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(116, 116, 220);
+    opacity: 0;
+}
+.contents:hover{
+    opacity: 1;
+}
+.contents h2{
+    color: white;
+}
+.contents p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.rupees{
+    color: blue;
+}
+.contents a{
+    padding: 3px 8px;
+    text-decoration: none;
+    background-color: rgb(86, 92, 203);
+    color: white;
+    border-radius: 20px;
+}
+.premium-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(116, 116, 220);
+}
+
+.review-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(116, 116, 220);
+}
+.features-card .card {
+    background-color: rgb(246, 246, 246);
+    border-radius: 40px;
+}
+
+.feature-img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.reviews {
+    background-color: rgb(246, 246, 246);
+}
+
+ .card-detail{
+    color: darkmagenta;
+} 
+
+.box {
+    width: 280px;
+}
+
+.box img {
+    width: 100%;
+    height: 170px;
+}
+
+.icons {
+    color: forestgreen;
+}
+footer {
+    background-color: rgb(11, 19, 75);
+    height: 300px;
+}
+
+footer h5 {
+    color: rgb(243, 241, 238);
+}
+
+.about-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-links a {
+    color: white;
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons i {
+    color: white;
+    font-size: 25px;
+}
+.social-icons a:hover{
+transform: scale(1.1);
+}
+.f-icon{
+    padding: 10px 20px;
+}
+
+
+@media (max-width:560px){
+    .main-heading{
+        position: absolute;
+        left: 30%;
+    }
+    .main-heading h1{
+        font-size: 40px;
+    }
+    .modal-btn{
+        left: 35%;
+        top: 80%;
+    }
+    .gallery{
+        grid-template-columns: repeat(4, 70px);
+    }
+footer{
+    height: auto;
+}
+.footer-child{
+    margin-top: 20px;
+}
+}
